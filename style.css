@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.Fcontainer {
+    font-size: 70px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 255, 177);
+}
+
+.container {
+    width: 100vw;
+    height: 20vh;
+    background-color: #2C4251;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100vw;
+    height: 20vh;
+    background-color: #8bb3d0;
+    font-size: 35px;
+    color: #ffffff;
+
+}
+
+.header {
+    font-size: 60px;
+    font-family: "Garamond";
+}
+
+.inner-container-one {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    background-color: #03045E;
+    color: #FFFFFF;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 60px;
+    font-family: "Garamond";
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 49vw;
+}
+
+
+.menu {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #8bb3d0;
+    color: #F5E0B7;
+    flex-direction: column;
+}
+
+.nasa {
+    font-size: 35px;
+}
+
+.inner-container-two {
+    display: flex;
+    width: 100vw;
+    height: 0vh;
+    background-color: #0f162c;
+    font-size: 35px;
+    color: #FFFFFF;
+    flex-direction: column;
+}
+
+.favorites {
+    font-size: 60px;
+    font-family: "Garamond";
+    color: #FFFFFF;
+}
+
+.linklist {
+    font-size: 35px;
+}
+
+.image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 65vw;
+}
